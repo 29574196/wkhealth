@@ -8,6 +8,9 @@ import {PreloaderComponent} from './layout/preloader/preloader.component';
 import {NavComponent} from './layout/nav/nav.component';
 import {FooterComponent} from './layout/footer/footer.component';
 import { Index2Component } from './pages/index2/index2.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { DomicilaryComponent } from './pages/domicilary/domicilary.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { Index2Component } from './pages/index2/index2.component';
     PreloaderComponent,
     NavComponent,
     FooterComponent,
-    Index2Component
+    Index2Component,
+    ContactComponent,
+    ServicesComponent,
+    DomicilaryComponent
   ],
   imports: [
     BrowserModule,
