@@ -986,7 +986,7 @@ a:focus {
 	background-color: #6a6d6d;
 	padding-right: 90px;
 	min-height: 125px;
-	display: flex;
+	display: inline;
 	align-items: center;
 	position: relative;
 }
@@ -1308,7 +1308,7 @@ a:focus {
 	background-color: var(--thm-base);
 	width: 205px;
 	height: 198px;
-	display: flex;
+	display: inline;
 	align-items: center;
 	justify-content: center;
 	position: absolute;
